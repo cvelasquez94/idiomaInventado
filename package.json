@@ -1,0 +1,26 @@
+{
+  "name": "idiomainventado",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvelasquez94/idiomaInventado.git"
+  },
+  "author": "carlos velasquez <carlosbrunotbc@gmail.com> (https://twitter.com/carlosbrunotbc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvelasquez94/idiomaInventado/issues"
+  },
+  "homepage": "https://github.com/cvelasquez94/idiomaInventado#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
